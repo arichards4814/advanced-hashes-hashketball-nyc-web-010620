@@ -106,7 +106,8 @@ game_hash.each do |key, value|
         numbersArr.push(key2[:rebounds]) 
         numbersArr.push(key2[:assists]) 
         numbersArr.push(key2[:steals]) 
-        numbersArr.push(key2[:number]) 
+        numbersArr.push(key2[:blocks]) 
+        numbersArr.push(key2[:slam_dunks]) 
     end
     
    end
