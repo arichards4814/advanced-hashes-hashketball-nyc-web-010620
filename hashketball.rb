@@ -68,10 +68,10 @@ def team_colors(teamname)
 game_hash = game_hash()
   
   game_hash.each do |key, value|
-    puts value
+  
    if value[:team_name] == teamname
     return value[:colors]
-    puts "Yea baby"
+   
    end
   end
 end
