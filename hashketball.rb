@@ -100,11 +100,12 @@ game_hash.each do |key, value|
     
    if value[:team_name] == teamname
       value[:players].each do |key2, value2|
-        puts key2[:number]
+        numbersArr.push(key2[:number]) 
     end
     
    end
   end
+  numbersArr
 end
 
 
