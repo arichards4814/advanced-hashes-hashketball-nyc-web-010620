@@ -101,6 +101,12 @@ game_hash.each do |key, value|
    if value[:team_name] == teamname
       value[:players].each do |key2, value2|
         numbersArr.push(key2[:number]) 
+        numbersArr.push(key2[:shoe]) 
+        numbersArr.push(key2[:points]) 
+        numbersArr.push(key2[:rebounds]) 
+        numbersArr.push(key2[:assists]) 
+        numbersArr.push(key2[:steals]) 
+        numbersArr.push(key2[:number]) 
     end
     
    end
