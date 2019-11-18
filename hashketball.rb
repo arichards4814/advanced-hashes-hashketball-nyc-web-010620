@@ -92,7 +92,7 @@ teamnamesArr = []
   return teamnamesArr
 end
 
-def players_numbers(teamname)
+def player_numbers(teamname)
   game_hash = game_hash()
 numbersArr = []
 
