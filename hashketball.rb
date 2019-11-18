@@ -105,7 +105,7 @@ game_hash.each do |key, value|
     
    end
   end
-  numbersArr
+  return numbersArr
 end
 
 
