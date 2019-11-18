@@ -70,7 +70,7 @@ game_hash = game_hash()
   game_hash.each do |key, value|
     value.each do |key2, value2|
         if key2[:team_name] == teamname
-          return key2[:team_name][:colors]
+          return key2[:colors]
         end
     end
 
