@@ -80,12 +80,16 @@ def team_names()
   
 game_hash = game_hash()
   
+ 
+teamnamesArr = []
+  
   game_hash.each do |key, value|
   
-   value[:team_name]
+   teamnamesArr.push(value[:team_name])
    
    end
-  end
+  
+  return teamnamesArr
 end
 
 
