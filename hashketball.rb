@@ -92,5 +92,7 @@ teamnamesArr = []
   return teamnamesArr
 end
 
+def players_numbers()
+
 
 
