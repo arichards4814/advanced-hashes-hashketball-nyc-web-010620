@@ -92,7 +92,20 @@ teamnamesArr = []
   return teamnamesArr
 end
 
-def players_numbers()
+def players_numbers(teamname)
+  game_hash = game_hash()
+numbersArr = []
+
+game_hash.each do |key, value|
+    
+   if value[:team_name] == teamname
+      value[:players].each do |key2, value2|
+        puts key2[:number]
+    end
+    
+   end
+  end
+end
 
 
 
