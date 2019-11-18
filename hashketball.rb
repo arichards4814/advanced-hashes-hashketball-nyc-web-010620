@@ -76,5 +76,17 @@ game_hash = game_hash()
   end
 end
 
+def team_names()
+  
+game_hash = game_hash()
+  
+  game_hash.each do |key, value|
+  
+   value[:team_name]
+   
+   end
+  end
+end
+
 
 
